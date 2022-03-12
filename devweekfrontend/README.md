@@ -1,5 +1,19 @@
 # Deevweekfrontend
 
+Este projeto foi desenvolvido durante o programa de pré-lançamento do bootcamp fullstack Philips DIO (www.dio.me).
+Este projeto frontend com angular está realizando requisições HTTP à um projeto spring. Por sua vez o programa em java
+busca os dados persistidos em um banco de dados físico. Toda a implementação é baseda em localhost, portanto, caso necessário
+modifique as configurações para o IP do seu servidor.
+
+O SGBD utilizado é o mysql que se conecta ao spring por um usuário dedicado a este fim. Dessa forma, o springboot utiliza 
+as configurações do application.propeties para realizar a conexão.
+
+A integração do front é realizada através de um redirecionamento utilizando proxy. O arquivo proxy.config.js possui os
+parâmetros para efetuar o redirecionamento.
+
+Para utilizar o proxy inicie a aplicação utilizando o comando: npm run start 
+_______________________________________________________________________________________________________
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
 
 ## Development server
